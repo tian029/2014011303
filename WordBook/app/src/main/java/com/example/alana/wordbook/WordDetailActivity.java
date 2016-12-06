@@ -1,0 +1,37 @@
+package com.example.alana.wordbook;
+
+import android.content.res.Configuration;
+import android.net.Uri;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class WordDetailActivity extends AppCompatActivity implements WordDetialFragment.OnFragmentInteractionListener{
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        //如果是横屏的话直接退出
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            finish();
+            return;
+        }
+
+        //    setContentView(R.layout.activity_word_detail);
+
+
+        if (savedInstanceState == null) {
+            WordDetialFragment detailFragment = new WordDetialFragment();
+            detailFragment.setArguments(getIntent().getExtras());
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(android.R.id.content, detailFragment)//android.R.id.content是Fragment的id
+                    .commit();
+        }
+    }
+
+    @Override
+    public void onWordDetailClick(Uri uri) {
+
+    }
+}
