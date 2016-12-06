@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">帮助</string>
+    <string name="button_per">%</string>
+    <string name="button_sqr">√</string>
+    <string name="button_squ">x^2</string>
+    <string name="button_part">1/x</string>
+    <string name="button_CE">CE</string>
+    <string name="button_AC">AC</string>
+    <string name="button_back">←</string>
+    <string name="button_division">÷</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_multiply">×</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_sub">-</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_add">+</string>
+    <string name="button_0">0</string>
+    <string name="button_neg">+/-</string>
+    <string name="button_point">.</string>
+    <string name="button_equal">=</string>
+    <string name="button_sin">sin</string>
+    <string name="button_cos">cos</string>
+    <string name="button_log">log</string>
+    <string name="button_tan">tan</string>
+    <string name="button_ln">ln</string>
+    <string name="button_pi">π</string>
+</resources>

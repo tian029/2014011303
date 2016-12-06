@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.alana.calculator.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_jz"
+        android:orderInCategory="100"
+        android:title="进制转换"/>
+    <item
+        android:id="@+id/action_unit"
+        android:orderInCategory="100"
+        android:title="单位转换"/>
+
+</menu>

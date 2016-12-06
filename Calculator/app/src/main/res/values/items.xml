@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unlength">
+        <item>米</item>
+        <item>分米</item>
+        <item>厘米</item>
+        <item>毫米</item>
+    </string-array>
+    <string-array name="ulength">
+        <item>米</item>
+        <item>分米</item>
+        <item>厘米</item>
+        <item>毫米</item>
+    </string-array>
+</resources>
